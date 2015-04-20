@@ -60,7 +60,6 @@ static int ar_write(lua_State *L) {
 	{ "pax",	archive_write_set_format_pax },
 	{ "paxr",	archive_write_set_format_pax_restricted },
 	{ "posix",	archive_write_set_format_pax },
-	{ "raw",	archive_write_set_format_raw },
 	{ "rpax",	archive_write_set_format_pax_restricted },
 	{ "shar",	archive_write_set_format_shar },
 	{ "shardump",	archive_write_set_format_shar_dump },
